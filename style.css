@@ -1,0 +1,173 @@
+:root{
+   --cor-principal:#326ebd;
+   --cor-secundaria:#10001f;
+   --cor-terciaria:#0affff;
+   --cor-branco:#ffffff;
+   --font:'Rubik', sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+    font-weight: lighter;
+    color: var(--cor-branco);
+    
+}
+
+body{
+    background-color: var(--cor-secundaria);
+}
+
+header{
+    padding: 16px 0;
+    background-color:var(--cor-principal) ;
+    color: var(--cor-branco);
+    
+   
+    
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    color: var(--cor-branco);
+    font-size: 24px;
+    
+}
+header nav li a{
+    color: var(--cor-branco);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.container h1{
+    font-weight: 800;
+}
+
+.container{
+    max-height: 1288px;
+    width: 100%;
+    margin:0 auto;
+   
+    
+    
+}
+
+header .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 46%;
+    
+}
+
+.lista-logo img{
+    height: 24px;
+}
+
+.lista-logo li{
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 70%;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+    color: var(--cor-secundaria);
+    font-weight: 800;
+    
+}
+
+section p{
+    margin-bottom: 8px;
+
+}
+
+.imagem-principal{
+    margin-right: 16px;
+}
+
+.lista-social img{
+    height: 24px;
+}
+.container_contato{
+    display: flex;
+    justify-content: center;
+    background-color: #326ebd;
+font-weight: 800;
+padding: 10px;
+}
+.grupo_contatos{
+    display: flex;
+    justify-content: center;
+    width: 100;
+    padding: 40px;
+    gap: 200px; 
+    background-color: var(--cor-principal); 
+}
+.fale_conosco form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.lista-social li {
+    display: inline; 
+    margin-right: 8px;
+}
+
+.lista-social li a{
+    text-decoration: none;
+}
+form input, form button  {
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+.grupo_contatos h3{
+    margin-bottom: 18px;
+    font-weight: 800;
+}
+
+form button {
+    background-color: var(--cor-secundaria);
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: var(--cor-terciaria);
+    color: black;
+}
+
+input:focus, textarea:focus {
+    outline-color: var(--cor-secundaria)
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-secundaria);
+    padding: 25px 0;
+}
